@@ -1,0 +1,103 @@
+@import url("reset.css");
+
+.container {
+    width: 1200px;
+    margin: 24px auto;
+    outline: 4px solid black;
+}
+
+body {
+    font-size: 20px;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: 900;
+    text-align: left;
+    margin-bottom: 8px;
+}
+
+.parent_1 {
+    display: flex;
+    background-color:aqua;
+}
+
+.parent_1 > div {
+    outline: 2px solid black;
+    width: 400px;
+    height: 400px;
+    padding: 24px;
+}
+
+.parent_2 {
+    display: flex;
+    background-color:lawngreen;
+}
+
+.child_2_1 {
+    width: 800px;
+}
+
+.child_2_1 > div {
+    height: 200px;
+    padding: 24px;
+    outline: 2px solid black;
+}
+
+.child_2_2 {
+	width: 400px;
+}
+
+.child_2_2 > div {
+    height: 133.33px;
+    padding: 24px;
+    outline: 2px solid black;
+}
+
+.parent_3 {
+    display: flex;
+    background-color:darkorange;
+}
+
+.child_3_1 {
+	width: 400px;
+    height: 400px;
+    outline: 2px solid black;
+    padding: 24px;
+}
+
+.child_3_2 {
+    outline: 2px solid black;
+    width: 800px;
+}
+
+.child_3_2_1 {
+    height: 200px;
+    outline: 2px solid black;
+    padding: 24px;
+}
+
+.child_3_2_2 {
+    display: flex;
+    width: 800px;
+}
+
+.child_3_2_2_1 {
+    outline: 2px solid black;
+    width: 400px;
+    height: 200px;
+    padding: 24px;
+}
+
+.child_3_2_2_2 {
+    width: 400px;
+}
+
+.child_3_2_2_2 > div {
+    outline: 2px solid black;
+    height: 100px;
+    padding: 24px;
+}
+
+
+
